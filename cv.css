@@ -112,7 +112,8 @@ pre{
 
 .cont,
 .sk,
-.ed, .text {
+.ed, 
+.text {
     border: none;
     border-bottom: 0.1vh rgb(74, 74, 74) solid;
     border-radius: 0.5vh;
