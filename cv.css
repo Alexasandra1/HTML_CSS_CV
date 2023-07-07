@@ -1,0 +1,146 @@
+html {
+    background-color: rgb(211, 211, 152);
+    text-decoration: none;
+}
+
+body {
+    font-family: sans-serif;
+    color: rgb(0, 0, 0);
+    font-family: 'Serif';
+}
+
+.all {
+    display: flex;
+    flex-direction: column;
+    min-width: 100px;
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.code {
+    margin: 0 auto;
+    width: 500px;
+    padding: 5px;
+    border-radius: 20px;
+    border: 2px solid black;
+}
+
+h1,
+h3 {
+    text-align: center;
+}
+
+h3 {
+    font-size: 3vh;
+}
+
+ul{
+    list-style-type: disc;
+}
+
+.block{
+    background-color: rgb(255, 255, 235);
+    border: 5px solid rgb(70, 0, 0);
+    border-radius: 20px;
+}
+
+.text{
+    text-align: center;
+    font-size: 2.5vh !important;
+}
+
+code{
+    font-size: 2.5vh;
+    overflow-x: auto;
+    display: block;
+    width: 500px;
+}
+.container {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 20px;
+}
+
+pre{
+    display: contents !important;
+}
+
+.title {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.header{
+    margin-bottom: 20px;
+}
+
+.web {
+    text-align: center;
+    letter-spacing: 0.1;
+    font-size: 5vh;
+}
+
+.picture {
+    width: 25vh;
+    height: 25vh;
+    border-radius: 50%;
+    margin: 1vh 10vh;
+}
+
+.name {
+    border: none;
+    display: inline-block;
+    width: 60%;
+    font-size: 4vh;
+    letter-spacing: 1vh;
+}
+
+.cont {
+    line-height: 7vh;
+}
+
+.cont,
+.sk,
+.ed, .text {
+    border: none;
+    border-bottom: 0.1vh rgb(74, 74, 74) solid;
+    border-radius: 0.5vh;
+    font-size: larger;
+    margin: 5vh;
+}
+
+.Menu {
+    text-align: center;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    width: 50%;
+    font-size: 20px;
+    line-height: 250%;
+    padding: 5px;
+    flex-grow: 1;
+    flex-shrink: 1;
+}
+
+.main {
+    margin-right: 5px;
+}
+
+.description {
+    vertical-align: middle;
+    padding: 15px;
+    flex-grow: 1;
+}
+
+img {
+    padding-right: 10px;
+}
+
+a {
+    color: brown;
+    text-decoration: none;
+}
+
+a:hover {
+    color: rgb(120, 31, 31);
+}
