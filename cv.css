@@ -20,6 +20,7 @@ body {
 .code {
     margin: 0 auto;
     width: 500px;
+    min-width: 100px;
     padding: 5px;
     border-radius: 20px;
     border: 2px solid black;
@@ -55,6 +56,7 @@ code{
     display: block;
     width: 500px;
 }
+
 .container {
     display: flex;
     flex-direction: row;
@@ -68,6 +70,15 @@ pre{
 .title {
     display: flex;
     flex-direction: row-reverse;
+
+    @media (max-width: 1000px) { 
+        flex-direction: column !important;
+    }
+
+    @media (min-width: 2400px) { 
+        flex-direction: column !important;
+        margin-left: 50px;
+    }
 }
 
 .header{
@@ -106,7 +117,6 @@ pre{
     border-bottom: 0.1vh rgb(74, 74, 74) solid;
     border-radius: 0.5vh;
     font-size: larger;
-    margin: 5vh;
 }
 
 .Menu {
