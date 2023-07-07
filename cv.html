@@ -30,6 +30,38 @@
                             I like to
                             learn new material and improve my skills.</p>
                     </section>
+                    <section>
+                        <h3>CODE EXAMPLE</h3>
+                        <div class="code">
+                            <pre>
+                                <code>
+static int GenerateCombinationsHelper(int[] S, int length, int index, 
+int[] currentComb, int startIndex, List &lt;int[]&gt; combinations)
+{
+    int flag = 0;
+    flag += 1;
+    if (index == length)
+    {
+            int[] comb = new int[length];
+            Array.Copy(currentComb, comb, length);
+            combinations.Add(comb);
+            return flag;
+        }
+        flag += 2;
+        for (int i = startIndex; i &lt; S.Length; i++)
+        {
+            currentComb[index] = S[i];
+            flag += 5;
+            flag += GenerateCombinationsHelper(S, length, index + 1, currentComb, i + 1, combinations);
+        }
+        return flag;
+    }
+}
+                                </code>
+                            </pre>
+                        </div>
+                        
+                    </section>
         
         <div class="block">
             <footer>
